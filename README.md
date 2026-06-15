@@ -23,7 +23,7 @@ The plot below illustrates the dynamic response of the battery State of Charge (
 ## Key Observations & Data Analysis:
 * **Continuous Depletion Phases:** The steady, downward slopes (most notable between t = 500s and t = 2000s) represent sustained power draw where the driver model demands torque, causing the H-bridge to pull continuous current from the battery pack to overcome vehicle body tractive resistance.
   
-* **Regenerative Braking Spikes:** The sharp, upward recoveries in the SoC curve (such as the peaks near t = 400s and the aggressive rise after $t = 2100$s) clearly demonstrate the regenerative braking algorithm in action. During these deceleration periods, the motor acts as a generator, pushing negative current back through the H-bridge to successfully recover kinetic energy and recharge the battery.
+* **Regenerative Braking Spikes:** The sharp, upward recoveries in the SoC curve (such as the peaks near t = 400s and the aggressive rise after t = 2100s) clearly demonstrate the regenerative braking algorithm in action. During these deceleration periods, the motor acts as a generator, pushing negative current back through the H-bridge to successfully recover kinetic energy and recharge the battery.
 
   
 
