@@ -30,3 +30,6 @@ The plot below illustrates the dynamic response of the battery State of Charge (
 
 
 ## How to Runn the output folder.
+1. Clone the repo.
+2. Open `main.m'.
+3. View the generated plots in the output folder.
